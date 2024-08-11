@@ -98,7 +98,7 @@ def plot_shape_and_symmetry_line(shape, direction, perp_direction, line_point):
     plt.show()
 
 # Example usage
-csv_path = "C:/Users/rvshi/OneDrive/Documents/adobe/problems/problems/isolated.csv"
+csv_path = "problems\problems\isolated.csv"
 shapes = read_csv(csv_path)
 
 # Check for symmetry and plot for each shape
